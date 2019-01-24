@@ -53,6 +53,7 @@ PROMPT="
 %{$fg[green]%}%m\
 %{$fg[white]%}:\
 %{$terminfo[bold]$fg[yellow]%}%~%{$reset_color%}\
+ \
 ${hg_info}\
 ${git_info}\
-%{$terminfo[bold]$fg[red]%}> %{$reset_color%}"
+ %{$terminfo[bold]$fg[red]%}> %{$reset_color%}"
